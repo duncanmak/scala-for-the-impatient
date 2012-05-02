@@ -1,9 +1,11 @@
 trait RectangleLikeDouble {
-  var x: Double
-  var y: Double
-  var width: Double
-  var height: Double
-  
+  this: {
+    var x: Double
+    var y: Double
+    var width: Double
+    var height: Double
+  } =>
+          
   //
   // public void translate(int dx, int dy) 
   //
