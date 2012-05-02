@@ -1,4 +1,4 @@
-trait RectangleLike {
+trait RectangleLikeDouble {
   var x: Double
   var y: Double
   var width: Double
